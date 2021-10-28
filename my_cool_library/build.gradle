@@ -38,15 +38,15 @@ afterEvaluate {
     publishing {
         publications {
             // Creates a Maven publication called "release".
-            release(MavenPublication) {
-                // Applies the component for the release build variant.
-                from components.release
-
-                // You can then customize attributes of the publication as shown below.
-                groupId = 'com.example.MyCoolLibrary'
-                artifactId = 'final'
-                version = '0.0.1'
-            }
+//            release(MavenPublication) {
+//                // Applies the component for the release build variant.
+//                from components.release
+//
+//                // You can then customize attributes of the publication as shown below.
+//                groupId = 'com.example.MyCoolLibrary'
+//                artifactId = 'final'
+//                version = '0.0.1'
+//            }
             // Creates a Maven publication called “debug”.
             debug(MavenPublication) {
                 // Applies the component for the debug build variant.
